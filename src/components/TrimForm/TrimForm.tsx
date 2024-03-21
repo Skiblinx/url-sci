@@ -37,6 +37,8 @@ const TrimForm: React.FC = () => {
     }, 2500);
   };
 
+  const token = 'meg7j60NfOonw1bnkAH1H6p74GLuj7PlS7QQX1uMUIaGoUDVWKhWgzh3RZX1'
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -52,7 +54,7 @@ const TrimForm: React.FC = () => {
         },
         {
           headers: {
-            'Authorization': `Bearer ${import.meta.env.VITE_TINYURL_TOKEN}`,
+            'Authorization': `Bearer ${token}`,
             'Content-Type': 'application/json',
           },
         }

@@ -81,7 +81,7 @@ const SignUp: React.FC = () => {
 
       const { password: _, ...formFieldsCopy } = formFields; // Create a copy without the 'password' field
 
-      formFieldsCopy.timestamp = serverTimestamp();
+      // formFieldsCopy.timestamp = serverTimestamp();
 
       await setDoc(doc(db, 'users', user.uid), formFieldsCopy);
 
