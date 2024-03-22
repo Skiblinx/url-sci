@@ -1,6 +1,6 @@
 # Project Scissor
 
-A url shortening application, still in progress...
+A url shortening application, still in develpment...
 
 ## Table of Contents
 
@@ -88,7 +88,7 @@ This will generate an optimized build in the `dist` directory, ready for deploym
 
 ## Backend API 
 
-The backend api used: `http://cutly.onrender.com` and its documentation can be accessed on `http://cutly.onrender.com/docs`
+The backend api used and it: `https://tinyurl.com/app/dev`.
 
 ## Dependencies
 
